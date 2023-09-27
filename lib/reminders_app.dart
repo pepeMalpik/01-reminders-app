@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:reminders_app/core/core.dart';
+import 'package:reminders_app/features/lists/lists.dart';
 
 class RemindersApp extends StatelessWidget {
   const RemindersApp({super.key});
@@ -12,14 +13,7 @@ class RemindersApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      home: const CreateListPage(),
     );
   }
 }
