@@ -1,4 +1,5 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
@@ -8,6 +9,7 @@ class AppTheme {
     scheme: FlexScheme.indigo,
     surfaceMode: FlexSurfaceMode.levelSurfacesLowScaffold,
     blendLevel: 7,
+    scaffoldBackground: const Color(0xfff3f2f6),
     subThemesData: const FlexSubThemesData(
       blendOnLevel: 10,
       blendOnColors: false,
